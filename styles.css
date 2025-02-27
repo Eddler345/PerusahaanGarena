@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara logo dan tulisan */
+}
+
+.logo-garena {
+    width: 70px !important; /* Pakai !important agar tidak ditimpa aturan lain */
+    height: auto !important;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.page {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.page img {
+    width: 600%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn-warning {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn-warning:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.support-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.btn-support {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Warna default */
+    transition: background-color 0.3s;
+}
+
+.btn-support:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+.btn-support img.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
